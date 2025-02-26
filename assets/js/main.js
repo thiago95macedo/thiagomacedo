@@ -163,6 +163,24 @@
   }
 
   /**
+ * Clients slider
+ */
+new Swiper('.clients-slider', {
+  speed: 800,
+  loop: true,
+  autoplay: {
+    delay: 7000,
+    disableOnInteraction: false
+  },
+  slidesPerView: 'auto',
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true
+  }
+});
+
+  /**
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {

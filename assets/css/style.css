@@ -933,6 +933,57 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Clientes
+--------------------------------------------------------------*/
+.clients {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.clients .section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.clients .clients-slider {
+  position: relative;
+}
+
+.clients .clients-slider .swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.clients .clients-slider .swiper-slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clients .clients-slider .client-logo img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 10px;
+}
+
+.clients .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #456294;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #456294;
+}
+
+/*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials .section-header {
